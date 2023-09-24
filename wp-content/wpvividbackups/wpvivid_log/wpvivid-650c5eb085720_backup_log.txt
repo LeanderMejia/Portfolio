@@ -1,0 +1,80 @@
+Log created: 2023-09-21 15:18:08
+Type: backup
+[2023-09-21 15:18:10][notice]Start backing up.
+[2023-09-21 15:18:10][notice]server info fcgi:On max execution time: 180 wp version:6.3.1 php version:8.2.9 db version:5.7.24 php ini:safe_mode: memory_limit:256M memory_get_usage:57.64 MB memory_get_peak_usage:58.43 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2023-09-21 15:18:10][notice]Prepare to backup backup_db files.
+[2023-09-21 15:18:10][notice]Start exporting database.
+[2023-09-21 15:18:10][notice]Preparing to dump table wp_mainwp_wpvivid
+[2023-09-21 15:18:10][notice]Preparing to dump table wp_mainwp_wpvivid_global
+[2023-09-21 15:18:10][notice]Preparing to dump table wp_mainwp_wpvivid_global_options
+[2023-09-21 15:18:10][notice]Preparing to dump table wp_mainwp_wpvividmeta
+[2023-09-21 15:18:10][notice]Preparing to dump table wp_wpforms_tasks_meta
+[2023-09-21 15:18:10][notice]Preparing to dump table wp_wpmailsmtp_debug_events
+[2023-09-21 15:18:11][notice]Preparing to dump table wp_wpmailsmtp_tasks_meta
+[2023-09-21 15:18:11][notice]Preparing to dump table wp_actionscheduler_claims
+[2023-09-21 15:18:11][notice]Preparing to dump table wp_actionscheduler_groups
+[2023-09-21 15:18:11][notice]Preparing to dump table wp_e_events
+[2023-09-21 15:18:11][notice]Preparing to dump table wp_links
+[2023-09-21 15:18:11][notice]Preparing to dump table wp_term_relationships
+[2023-09-21 15:18:11][notice]Preparing to dump table wp_actionscheduler_logs
+[2023-09-21 15:18:11][notice]Preparing to dump table wp_commentmeta
+[2023-09-21 15:18:11][notice]Preparing to dump table wp_e_submissions_values
+[2023-09-21 15:18:11][notice]Preparing to dump table wp_smush_dir_images
+[2023-09-21 15:18:11][notice]Preparing to dump table wp_term_taxonomy
+[2023-09-21 15:18:11][notice]Preparing to dump table wp_termmeta
+[2023-09-21 15:18:11][notice]Preparing to dump table wp_terms
+[2023-09-21 15:18:11][notice]Preparing to dump table wp_usermeta
+[2023-09-21 15:18:11][notice]Preparing to dump table wp_aioseo_posts
+[2023-09-21 15:18:11][notice]Preparing to dump table wp_users
+[2023-09-21 15:18:11][notice]Preparing to dump table wp_wpforms_payment_meta
+[2023-09-21 15:18:11][notice]Preparing to dump table wp_aioseo_notifications
+[2023-09-21 15:18:11][notice]Preparing to dump table wp_comments
+[2023-09-21 15:18:11][notice]Preparing to dump table wp_actionscheduler_actions
+[2023-09-21 15:18:11][notice]Preparing to dump table wp_e_submissions_actions_log
+[2023-09-21 15:18:11][notice]Preparing to dump table wp_aioseo_cache
+[2023-09-21 15:18:11][notice]Preparing to dump table wp_wpforms_payments
+[2023-09-21 15:18:11][notice]Preparing to dump table wp_e_submissions
+[2023-09-21 15:18:11][notice]Preparing to dump table wp_options
+[2023-09-21 15:18:12][notice]Preparing to dump table wp_postmeta
+[2023-09-21 15:18:13][notice]Preparing to dump table wp_posts
+[2023-09-21 15:18:14][notice]Exporting database finished.
+[2023-09-21 15:18:14][notice]Start compressing database
+[2023-09-21 15:18:14][notice]Prepare to zip file. file: portfolio.test_wpvivid-650c5eb085720_2023-09-21-15-18_backup_db.sql
+[2023-09-21 15:18:19][notice]Adding zip files completed.portfolio.test_wpvivid-650c5eb085720_2023-09-21-15-18_backup_db.part001.zip, filesize: 16.59 MB
+[2023-09-21 15:18:19][notice]Compressing database completed
+[2023-09-21 15:18:19][notice]Backing up backup_db completed.
+[2023-09-21 15:18:19][notice]Prepare to backup backup_themes files.
+[2023-09-21 15:18:21][notice]Compressing zip file:portfolio.test_wpvivid-650c5eb085720_2023-09-21-15-18_backup_themes.part001.zip index:1636
+[2023-09-21 15:18:39][notice]Compressing zip file:portfolio.test_wpvivid-650c5eb085720_2023-09-21-15-18_backup_themes.part001.zip success. index:1636 file size:26.62 MB
+[2023-09-21 15:18:39][notice]Backing up backup_themes completed.
+[2023-09-21 15:18:39][notice]Prepare to backup backup_plugin files.
+[2023-09-21 15:18:42][notice]Compressing zip file:portfolio.test_wpvivid-650c5eb085720_2023-09-21-15-18_backup_plugin.part001.zip index:3067
+[2023-09-21 15:19:15][notice]Compressing zip file:portfolio.test_wpvivid-650c5eb085720_2023-09-21-15-18_backup_plugin.part001.zip success. index:3067 file size:65.60 MB
+[2023-09-21 15:19:15][notice]Backing up backup_plugin completed.
+[2023-09-21 15:19:15][notice]Prepare to backup backup_uploads files.
+[2023-09-21 15:19:15][notice]Compressing zip file:portfolio.test_wpvivid-650c5eb085720_2023-09-21-15-18_backup_uploads.part001.zip index:57
+[2023-09-21 15:19:15][notice]Compressing zip file:portfolio.test_wpvivid-650c5eb085720_2023-09-21-15-18_backup_uploads.part001.zip success. index:57 file size:4.12 MB
+[2023-09-21 15:19:15][notice]Backing up backup_uploads completed.
+[2023-09-21 15:19:15][notice]Prepare to backup backup_content files.
+[2023-09-21 15:19:16][notice]Compressing zip file:portfolio.test_wpvivid-650c5eb085720_2023-09-21-15-18_backup_content.part001.zip index:3
+[2023-09-21 15:19:16][notice]Compressing zip file:portfolio.test_wpvivid-650c5eb085720_2023-09-21-15-18_backup_content.part001.zip success. index:3 file size:780.00 B
+[2023-09-21 15:19:16][notice]Backing up backup_content completed.
+[2023-09-21 15:19:16][notice]Prepare to backup backup_core files.
+[2023-09-21 15:19:18][notice]Compressing zip file:portfolio.test_wpvivid-650c5eb085720_2023-09-21-15-18_backup_core.part001.zip index:2601
+[2023-09-21 15:19:53][notice]Compressing zip file:portfolio.test_wpvivid-650c5eb085720_2023-09-21-15-18_backup_core.part001.zip success. index:2601 file size:52.43 MB
+[2023-09-21 15:19:53][notice]Backing up backup_core completed.
+[2023-09-21 15:19:53][notice]Prepare to backup backup_merge files.
+[2023-09-21 15:19:53][notice]Prepare to zip file. file: portfolio.test_wpvivid-650c5eb085720_2023-09-21-15-18_backup_db.zip
+[2023-09-21 15:19:54][notice]Adding zip files completed.portfolio.test_wpvivid-650c5eb085720_2023-09-21-15-18_backup_all.part001.zip, filesize: 14.86 MB
+[2023-09-21 15:19:54][notice]Prepare to zip file. file: portfolio.test_wpvivid-650c5eb085720_2023-09-21-15-18_backup_themes.zip
+[2023-09-21 15:19:55][notice]Adding zip files completed.portfolio.test_wpvivid-650c5eb085720_2023-09-21-15-18_backup_all.part001.zip, filesize: 29.97 MB
+[2023-09-21 15:19:55][notice]Prepare to zip file. file: portfolio.test_wpvivid-650c5eb085720_2023-09-21-15-18_backup_plugin.zip
+[2023-09-21 15:19:57][notice]Adding zip files completed.portfolio.test_wpvivid-650c5eb085720_2023-09-21-15-18_backup_all.part001.zip, filesize: 44.62 MB
+[2023-09-21 15:19:57][notice]Prepare to zip file. file: portfolio.test_wpvivid-650c5eb085720_2023-09-21-15-18_backup_uploads.zip
+[2023-09-21 15:19:57][notice]Adding zip files completed.portfolio.test_wpvivid-650c5eb085720_2023-09-21-15-18_backup_all.part001.zip, filesize: 48.73 MB
+[2023-09-21 15:19:57][notice]Prepare to zip file. file: portfolio.test_wpvivid-650c5eb085720_2023-09-21-15-18_backup_content.zip
+[2023-09-21 15:19:57][notice]Adding zip files completed.portfolio.test_wpvivid-650c5eb085720_2023-09-21-15-18_backup_all.part001.zip, filesize: 48.74 MB
+[2023-09-21 15:19:57][notice]Prepare to zip file. file: portfolio.test_wpvivid-650c5eb085720_2023-09-21-15-18_backup_core.zip
+[2023-09-21 15:20:00][notice]Adding zip files completed.portfolio.test_wpvivid-650c5eb085720_2023-09-21-15-18_backup_all.part001.zip, filesize: 60.57 MB
+[2023-09-21 15:20:00][notice]Backing up backup_merge completed.
+[2023-09-21 15:20:00][notice]Backup completed.
